@@ -1,0 +1,45 @@
+.index {
+  background: #eee;
+  height: 100%;
+  .banner {
+    width: 100%;
+  }
+
+  .index-card-wrap {
+    width: 95%;
+    margin: auto;
+    .index-card-image {
+      width: 100%;
+      height: 200px;
+      border-radius: 8px;
+    }
+
+    .index-card-title {
+      display: block;
+      text-align: center;
+    }
+
+    .at-col-6 {
+      padding: 5px 20px;
+    }
+
+    .card-wrap-title {
+      margin-top: 50px;
+      text-indent: 20px;
+    }
+
+    .card {
+      padding: 4px;
+      background: #fff;
+      border-radius: 8px;
+      margin: 10px 0;
+      overflow: hidden;
+    }
+  }
+
+  .buy-history {
+    text-align: center;
+    margin: 20px 0 100px;
+    color: blue;
+  }
+}
