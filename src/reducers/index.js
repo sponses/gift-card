@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux'
-import counter from './counter'
+import fetchIndexData from './fetchIndexData'
+import sideCard from './sideCard'
 
 export default combineReducers({
-  counter
+  indexData: fetchIndexData,
+  sideCardData: sideCard
 })
